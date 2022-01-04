@@ -11,7 +11,7 @@ This is the source code for the 4th version of my website, last updated August 1
 
 ## Demo
 
-Insert gif or link to demo
+<img src="https://media.discordapp.net/attachments/856902639233400852/928056620250963968/demo.gif?width=591&height=290" />
 
 
 <br />
@@ -29,7 +29,7 @@ Insert gif or link to demo
 
 - Space themed
 - Admin login
-- Three.js 3D background scene
+- Three.js 3D background scene with cinematics
 - Cross platform
 
 <br />
