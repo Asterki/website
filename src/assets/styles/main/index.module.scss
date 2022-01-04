@@ -1,0 +1,91 @@
+.page {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(8, 17, 66, 1) 180%);
+    height: 100vh;
+    color: white;
+    user-select: none;
+    font-family: "Roboto", sans-serif;
+
+    main {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        h1,
+        p {
+            text-shadow: 2px 1px 20px rgba(150, 150, 150, 1);
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-top: -1rem;
+        }
+
+        hr {
+            border: 1px solid white;
+            opacity: 1;
+            color: white;
+            box-shadow: 2px 1px 10px rgba(150, 150, 150, 1);
+            width: 24vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -3px;
+            transform: translateX(-50%);
+        }
+    }
+
+    .section {
+        display: none;
+    }
+
+    .section-active {
+        display: block;
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.5);
+
+        .navbar-element {
+            color: rgb(209, 209, 209);
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                color: white;
+            }
+        }
+
+        .navbar-title {
+            color: white;
+            font-weight: bold;
+            text-shadow: 2px 1px 20px rgba(150, 150, 150, 1) !important;
+
+            * {
+                color: white !important;
+            }
+        }
+    }
+
+    .background {
+        position: absolute !important;
+        top: 0% !important;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page {
+        main {
+            hr {
+            width: 54vw;
+                margin-top: -0.5rem;
+            }
+            p {
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}
