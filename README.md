@@ -40,7 +40,7 @@ This is the source code for the 4th version of my website, last updated August 1
 Clone the project
 
 ```bash
-  git clone https://github.com/Asterki/new-website.git website
+  git clone https://github.com/Asterki/website.git website
 ```
 
 Go to the project directory
